@@ -11,7 +11,7 @@
       "points": null
     },
     {
-      "name": "exercise-9-2",
+      "name": "exercise-8-2",
       "setup": "pytest tests/test_mfe.py",
       "run": "pytest",
       "input": "",
