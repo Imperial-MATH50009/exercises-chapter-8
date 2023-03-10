@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "setup",
-      "setup": "python3 -m pip3 install setuptools pytest flake8 pep8-naming flake8-docstrings pandas numpy",
+      "setup": "python3 -m pip install setuptools pytest flake8 pep8-naming flake8-docstrings pandas numpy",
       "run": "python3 -m pip install -U pip",
       "input": "",
       "output": "",
