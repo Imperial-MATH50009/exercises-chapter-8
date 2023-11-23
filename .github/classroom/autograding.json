@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "setup",
-      "setup": "python3 -m venv install venv",
+      "setup": "python3 -m venv venv",
       "run": "venv/bin/python -m pip install pip install setuptools pytest flake8 pep8-naming flake8-docstrings pandas numpy",
       "input": "",
       "output": "",
