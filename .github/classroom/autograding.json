@@ -2,8 +2,8 @@
   "tests": [
     {
       "name": "setup",
-      "setup": "python3 -m pip install setuptools pytest flake8 pep8-naming flake8-docstrings pandas numpy",
-      "run": "python3 -m pip install -U pip",
+      "setup": "python3 -m venv install venv",
+      "run": "venv/bin/python -m pip install pip install setuptools pytest flake8 pep8-naming flake8-docstrings pandas numpy",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -12,8 +12,8 @@
     },
     {
       "name": "exercise-8-2",
-      "setup": "pytest tests/test_mfe.py",
-      "run": "pytest",
+      "setup": "",
+      "run": "venv/bin/python -m pytest tests/test_mfe.py",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -23,7 +23,7 @@
     {
       "name": "flake8",
       "setup": "",
-      "run": "python -m flake8",
+      "run": "venv/bin/python -m flake8 --extend-exclude=venv",
       "input": "",
       "output": "",
       "comparison": "included",
