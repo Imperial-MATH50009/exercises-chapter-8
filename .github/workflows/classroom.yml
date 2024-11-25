@@ -20,7 +20,7 @@ jobs:
       name: setup
       uses: classroom-resources/autograding-command-grader@v1
       with:
-        command: venv/bin/python -m pip install pip install setuptools pytest flake8
+        command: venv/bin/python -m pip install pytest flake8
           pep8-naming flake8-docstrings pandas numpy
         max-score: null
         setup-command: python3 -m venv venv
